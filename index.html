@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Форма для входа</title>
+	 <link rel="stylesheet" type="text/css" href="css/auth.css">
+</head>
+<body>
+	<h1>Добро пожаловать!</h1>
+	<div>
+		<label>Логин:</td><td><input id="login" type="text"></label>
+		<label>Пароль:</td><td><input id="password" type="password"></label>
+		<label><input id="btn_enter" type="button" value="Войти"></label>
+	</div>
+	<h2>Впервые у нас?</h2>
+	<table>
+		<tr><td>Логин:</td><td><input id="loginReg" type="text"></td><td><span id="checkLogin"></span></td></tr>
+		<tr><td>Пароль:</td><td><input id="passReg" type="password"></td><td></td></tr>
+		<tr><td>Повторить пароль:</td><td><input id="pass2Reg" type="password"></td><td><span id="passVerif"></span></td></tr>
+		<tr><td>E-mail:</td><td><input id="emailReg" type="text"></td><td></td></tr>
+		<tr><td>ФИО:</td><td><input id="fioReg" type="text"></td><td></td></tr>
+		<tr><td></td><td><input id="btn_register" type="button" value="Зарегистрироваться"></td><td></td></tr>
+	</table>
+</body>
+</html>
+
+<script async defer src="js/auth.js"></script>
